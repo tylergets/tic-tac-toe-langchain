@@ -1,0 +1,27 @@
+{
+  "name": "tic-tac-toe-langchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "play": "tsx src/play.ts",
+    "test": "ava"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^5.3.1",
+    "esbuild-runner": "^2.2.2",
+    "langchain": "^0.0.96",
+    "openai": "^3.3.0",
+    "picocolors": "^1.0.0",
+    "prompts": "^2.4.2",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.3",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/prompts": "^2.4.4"
+  }
+}
