@@ -87,7 +87,7 @@ export class AiPlayer {
 
         try {
             this.game.setMove(this.player, row, column);
-        } catch (e) {
+        } catch (e: any) {
             // The move is invalid, repeat the process
             return this.makeMoveWithFeedback({
                 column,
